@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-19T06:34:40.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Zn_oe1KuQxD8BT2QMJ0D" version="12.8.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-03-19T06:34:54.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="Ctk8ioFsYgqT6yGj_kiF" version="12.8.5" type="github" pages="4">
   <diagram id="35m1pFO__Q9W-eGyACrk" name="고객등록">
     <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -368,7 +368,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="리봇계정확인" id="k75S4BzpsNL7mmpZO-Xg">
-    <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="LDK9crnApw_xUN4OTkNv-0" />
         <mxCell id="LDK9crnApw_xUN4OTkNv-1" parent="LDK9crnApw_xUN4OTkNv-0" />
