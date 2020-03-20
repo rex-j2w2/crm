@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-20T02:00:20.367Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="jKV0N9lOmWmH4Y3ckZ3i" version="12.8.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-03-20T02:00:41.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36" etag="xIAuVFu5LBOhrVLZV0qg" version="12.8.5" type="github" pages="6">
   <diagram id="35m1pFO__Q9W-eGyACrk" name="고객등록">
     <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -411,7 +411,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Call Report" id="K0Kd3IHvmQEPNo0RwN5J">
-    <mxGraphModel dx="1185" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="9GP7ec5j9Zek77Q9aWIa-0" />
         <mxCell id="9GP7ec5j9Zek77Q9aWIa-1" parent="9GP7ec5j9Zek77Q9aWIa-0" />
@@ -718,6 +718,45 @@
         </mxCell>
         <mxCell id="F992ChQszjt3V2DEgfE0-0" value="&lt;h1&gt;Call Report Comment&lt;/h1&gt;&lt;div&gt;1. Call Report 작성 후 보고자 및 열람권한을 가진 사람들이 해당 보고서를 보고 댓글 혹은 답글을 작성하는 Flow&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=KB금융 본문체;" vertex="1" parent="rDSnbw1IGrs8FGrPQ7z5-1">
           <mxGeometry x="910" y="30" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;fontFamily=KB금융 본문체;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="rDSnbw1IGrs8FGrPQ7z5-1" source="FhGHIlN6Z8ccl5mxNhMq-2" target="FhGHIlN6Z8ccl5mxNhMq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-1" value="Call Report" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=KB금융 본문체;" vertex="1" parent="rDSnbw1IGrs8FGrPQ7z5-1">
+          <mxGeometry x="840" y="240" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-2" value="+Seq&#xa;+제목&#xa;+날짜&#xa;+시간&#xa;+고객(법인)&#xa;+고객명(ID)&#xa;+목적(ID)&#xa;+목적&#xa;+내용&#xa;+첨부파일&#xa;+리서치 Request ID&#xa;+등록일&#xa;+등록자&#xa;+수정일&#xa;+수정자&#xa;+...&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=KB금융 본문체;" vertex="1" parent="FhGHIlN6Z8ccl5mxNhMq-1">
+          <mxGeometry y="30" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-3" value="Customer" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=KB금융 본문체;" vertex="1" parent="rDSnbw1IGrs8FGrPQ7z5-1">
+          <mxGeometry x="845" y="565" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-4" value="+...." style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=KB금융 본문체;" vertex="1" parent="FhGHIlN6Z8ccl5mxNhMq-3">
+          <mxGeometry y="30" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-5" value="Request" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=KB금융 본문체;" vertex="1" parent="rDSnbw1IGrs8FGrPQ7z5-1">
+          <mxGeometry x="1010" y="240" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-6" value="+Request ID&#xa;+Seq&#xa;+애널리스트 ID&#xa;+확연여부&#xa;+진행여부&#xa;+등록일&#xa;+..." style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=KB금융 본문체;" vertex="1" parent="FhGHIlN6Z8ccl5mxNhMq-5">
+          <mxGeometry y="30" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=ERoneToMany;endFill=0;fontFamily=KB금융 본문체;" edge="1" parent="rDSnbw1IGrs8FGrPQ7z5-1" source="FhGHIlN6Z8ccl5mxNhMq-2" target="FhGHIlN6Z8ccl5mxNhMq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-8" value="Comment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fillColor=#008cff;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=KB금융 본문체;" vertex="1" parent="rDSnbw1IGrs8FGrPQ7z5-1">
+          <mxGeometry x="1010" y="480" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-9" value="+Request ID&#xa;+Seq&#xa;+작성자 ID&#xa;+댓글/답글 여부&#xa;+내용&#xa;+등록일&#xa;+..." style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;fontFamily=KB금융 본문체;" vertex="1" parent="FhGHIlN6Z8ccl5mxNhMq-8">
+          <mxGeometry y="30" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=block;endFill=0;fontFamily=KB금융 본문체;" edge="1" parent="FhGHIlN6Z8ccl5mxNhMq-8" source="FhGHIlN6Z8ccl5mxNhMq-9" target="FhGHIlN6Z8ccl5mxNhMq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FhGHIlN6Z8ccl5mxNhMq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=ERoneToMany;endFill=0;fontFamily=KB금융 본문체;exitX=1.008;exitY=0.612;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="rDSnbw1IGrs8FGrPQ7z5-1" source="FhGHIlN6Z8ccl5mxNhMq-2" target="FhGHIlN6Z8ccl5mxNhMq-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="410" as="sourcePoint" />
+            <mxPoint x="1020" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
